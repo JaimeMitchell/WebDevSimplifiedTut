@@ -2,7 +2,7 @@
   "name": "webdevsimplifiedtut",
   "version": "1.0.0",
   "description": "Backend Practice",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/JaimeMitchell/WebDevSimplifiedTut.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jaime Mitchell",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JaimeMitchell/WebDevSimplifiedTut/issues"
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/JaimeMitchell/WebDevSimplifiedTut#readme",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.3.6"
   }
 }
