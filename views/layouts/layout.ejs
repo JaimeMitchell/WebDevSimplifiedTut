@@ -9,12 +9,15 @@
 </head>
 
 <body>
-    Before
+
     <br>
-    <!-- content of everything inside our application. includes every single other one of our pages right here in this body page. We only have to create one boilerplate html page -->
-    <%-body%>
-        <br>
-        After
+    this is the navigation, it's in all the ejs files.
+    <%- include('../partials/header') %>
+
+        <!-- content of everything inside our application. includes every single other one of our pages right here in this body page. We only have to create one boilerplate html page -->
+        <%- body %>
+            <br>
+
 </body>
 
 </html>
